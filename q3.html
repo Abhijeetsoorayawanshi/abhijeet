@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question3</title>
+    <style>
+        /* css decendent selector */
+        body h1{
+            color: blue;
+            /* colour of all h1 decendent of body will change to blue */
+        }
+        body li {
+            font-style: italic;
+            /* font style of all list decendent to body will change to italics */
+        }
+
+        /* CSS child selector */
+    ol > li {
+        background-color: chocolate;
+        /* background colour of those list which is child of ordered list will change to chocolate */ 
+    }
+    </style>
+</head>
+<body  >
+     <h1 style="color: black;">Question 3</h1>   
+    <h2 style="border: crimson ;">Name : Abhijeet Kumar</h2>
+    <h3 style="border: darkgreen;">Roll : 2006220</h3>
+    <h3 style="border: darkgreen;">Branch : CSE 2</h3>
+    <h1>This is a heading 1 who is child of body tag</h1>
+    <div>
+        <h1>This is a heading 1 who is child of div tag</h1>
+        <h2>This is heading 2 who is child of div tag</h2>
+        <ul>
+            <li>This is the list who is child of unordered list</li>
+            <li>This is the list who is child of unordered list</li>
+        </ul>
+    </div>
+    <article>
+        <ol>
+            <li>This is the first list which is child of ordered list</li>
+            <li>This is the second list which is child of ordered list</li>
+            <li>This is the third list which is child of ordered list</li>
+            <li>This is the fourth list which is child of ordered list</li>
+            <li>This is the fifth list which is child of ordered list</li>
+        </ol>
+    </article>
+    
+</body>
+</html>
